@@ -185,7 +185,7 @@ const projects = [
       "Implemented a Web Crawler that crawls through specific UCI domains in order to determine the most common tokens, subdomains, and pages belonging to UCI while respecting politeness policies and robots.txt files.",
     tags: [
       {
-        name: "python",
+        name: "Python",
         color: "blue-text-gradient",
       },
     ],
