@@ -30,7 +30,14 @@ import carrent from "./carrent.png";
 import jobit from "./jobit.png";
 import tripguide from "./tripguide.png";
 
+import indexer from "./indexer.png";
+import tesla from "./tesla.png";
+import webcrawler from "./webcrawler.png";
+
 export {
+  indexer,
+  webcrawler,
+  tesla,
   logo,
   backend,
   creator,

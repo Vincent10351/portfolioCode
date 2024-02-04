@@ -1,28 +1,31 @@
 import {
-  mobile,
   backend,
-  creator,
   web,
   javascript,
   typescript,
   html,
   css,
   reactjs,
-  redux,
   tailwind,
   nodejs,
-  mongodb,
   git,
   figma,
-  docker,
-  meta,
-  starbucks,
-  tesla,
-  shopify,
   carrent,
   jobit,
   tripguide,
   threejs,
+  python,
+  java,
+  cplusplus,
+  sql,
+  assembly,
+  servicenow,
+  webflow,
+  ytel,
+  expedia,
+  webcrawler,
+  indexer,
+  tesla
 } from "../assets";
 
 export const navLinks = [
@@ -42,31 +45,35 @@ export const navLinks = [
 
 const services = [
   {
-    title: "Web Developer",
-    icon: web,
-  },
-  {
-    title: "React Native Developer",
-    icon: mobile,
-  },
-  {
     title: "Backend Developer",
     icon: backend,
   },
   {
-    title: "Content Creator",
-    icon: creator,
+    title: "Web Developer",
+    icon: web,
   },
 ];
 
 const technologies = [
   {
-    name: "HTML 5",
-    icon: html,
+    name: "Python",
+    icon: python,
   },
   {
-    name: "CSS 3",
-    icon: css,
+    name: "Java",
+    icon: java,
+  },
+  {
+    name: "C++",
+    icon: cplusplus,
+  },
+  {
+    name: "SQL",
+    icon: sql,
+  },
+  {
+    name: "HTML 5",
+    icon: html,
   },
   {
     name: "JavaScript",
@@ -77,12 +84,12 @@ const technologies = [
     icon: typescript,
   },
   {
-    name: "React JS",
-    icon: reactjs,
+    name: "CSS 3",
+    icon: css,
   },
   {
-    name: "Redux Toolkit",
-    icon: redux,
+    name: "React JS",
+    icon: reactjs,
   },
   {
     name: "Tailwind CSS",
@@ -93,10 +100,6 @@ const technologies = [
     icon: nodejs,
   },
   {
-    name: "MongoDB",
-    icon: mongodb,
-  },
-  {
     name: "Three JS",
     icon: threejs,
   },
@@ -104,67 +107,33 @@ const technologies = [
     name: "git",
     icon: git,
   },
-  {
-    name: "figma",
-    icon: figma,
-  },
-  {
-    name: "docker",
-    icon: docker,
-  },
 ];
 
 const experiences = [
   {
-    title: "React.js Developer",
-    company_name: "Starbucks",
-    icon: starbucks,
+    title: "Research IT Intern",
+    company_name: "Ytel",
+    icon: ytel,
     iconBg: "#383E56",
-    date: "March 2020 - April 2021",
+    date: "June 2021 - Sept 2021",
     points: [
-      "Developing and maintaining web applications using React.js and other related technologies.",
-      "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-      "Implementing responsive design and ensuring cross-browser compatibility.",
-      "Participating in code reviews and providing constructive feedback to other developers.",
+      "Developed software with the use of Apache Beam and Dataflow to stream events from a Kafka Topic, data structures for holding events, into BigQuery, while invalid events are rerouted to a different Kafka Topic to be tested, debugged, and reran. ",
+      "Collaborated with multiple software engineers to develop and review code through the implementation of different tools and API’s (Kafka, BigQuery, Apache Beam, Git).",
+      "Implemented a service that creates pipelines to split off successful transformations from failed transformations, allowing us to monitor for incorrectly formatted data and reduce failure rate by 10%.",
+      "Increased the daily total number of transactions by 10% to approximately 3.5 million transactions.",
     ],
   },
   {
-    title: "React Native Developer",
-    company_name: "Tesla",
-    icon: tesla,
+    title: "Software Development Engineer Intern",
+    company_name: "Expedia",
+    icon: expedia,
     iconBg: "#E6DEDD",
-    date: "Jan 2021 - Feb 2022",
+    date: "June 2023 - Sept 2023",
     points: [
-      "Developing and maintaining web applications using React.js and other related technologies.",
-      "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-      "Implementing responsive design and ensuring cross-browser compatibility.",
-      "Participating in code reviews and providing constructive feedback to other developers.",
-    ],
-  },
-  {
-    title: "Web Developer",
-    company_name: "Shopify",
-    icon: shopify,
-    iconBg: "#383E56",
-    date: "Jan 2022 - Jan 2023",
-    points: [
-      "Developing and maintaining web applications using React.js and other related technologies.",
-      "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-      "Implementing responsive design and ensuring cross-browser compatibility.",
-      "Participating in code reviews and providing constructive feedback to other developers.",
-    ],
-  },
-  {
-    title: "Full stack Developer",
-    company_name: "Meta",
-    icon: meta,
-    iconBg: "#E6DEDD",
-    date: "Jan 2023 - Present",
-    points: [
-      "Developing and maintaining web applications using React.js and other related technologies.",
-      "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-      "Implementing responsive design and ensuring cross-browser compatibility.",
-      "Participating in code reviews and providing constructive feedback to other developers.",
+      "Developed a tool that enables the Help Desk to provide information to their customers (Expedia employees) to improve their call handling times and better enables them to help their customers.",
+      "Updated multiple search algorithms to utilize Glide Records and query through ServiceNow tables and retrieve data using Javascript. Reduced search times by up to 1400% and increased accuracy of information.",
+      "Contributed to a portal designed for customers to query through ServiceNow tables which utilizes multiple search algorithms as well as fixed formatting issues using HTML.",
+      "Created design documents to efficiently plan out what approaches, algorithms, methods, and issues might occur for the intern project.",
     ],
   },
 ];
@@ -198,66 +167,42 @@ const testimonials = [
 
 const projects = [
   {
-    name: "Car Rent",
+    name: "Search Engine & Indexer",
     description:
-      "Web-based platform that allows users to search, book, and manage car rentals from various providers, providing a convenient and efficient solution for transportation needs.",
+      "Designed a Search Engine that is capable of extracting tokens from up to 55000 documents or Web pages while creating partial indexes for efficient and easy retrieval by the search engine.retrieve the top urls for each query given by accessing partial indexes.",
     tags: [
       {
-        name: "react",
+        name: "Python",
         color: "blue-text-gradient",
       },
-      {
-        name: "mongodb",
-        color: "green-text-gradient",
-      },
-      {
-        name: "tailwind",
-        color: "pink-text-gradient",
-      },
     ],
-    image: carrent,
-    source_code_link: "https://github.com/",
+    image: indexer,
+    source_code_link: "https://github.com/Vincent10351/Assignment3",
   },
   {
-    name: "Job IT",
+    name: "Web Crawler",
     description:
-      "Web application that enables users to search for job openings, view estimated salary ranges for positions, and locate available jobs based on their current location.",
+      "Implemented a Web Crawler that crawls through specific UCI domains in order to determine the most common tokens, subdomains, and pages belonging to UCI while respecting politeness policies and robots.txt files.",
     tags: [
       {
-        name: "react",
+        name: "python",
         color: "blue-text-gradient",
       },
-      {
-        name: "restapi",
-        color: "green-text-gradient",
-      },
-      {
-        name: "scss",
-        color: "pink-text-gradient",
-      },
     ],
-    image: jobit,
-    source_code_link: "https://github.com/",
+    image: webcrawler,
+    source_code_link: "https://github.com/Vincent10351/group-jvac-crawler",
   },
   {
-    name: "Trip Guide",
+    name: "Tesla Deaths Data Analysis ",
     description:
-      "A comprehensive travel booking platform that allows users to book flights, hotels, and rental cars, and offers curated recommendations for popular destinations.",
+      "Led a team of 4 and produced data visualization and analysis on Tesla Deaths by solving for the main causation for deaths through the use of linear models, distribution of differences, and  null-hypothesis significance testing.",
     tags: [
       {
-        name: "nextjs",
+        name: "R",
         color: "blue-text-gradient",
       },
-      {
-        name: "supabase",
-        color: "green-text-gradient",
-      },
-      {
-        name: "css",
-        color: "pink-text-gradient",
-      },
     ],
-    image: tripguide,
+    image: tesla,
     source_code_link: "https://github.com/",
   },
 ];
