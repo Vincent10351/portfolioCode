@@ -21,6 +21,16 @@ import tailwind from "./tech/tailwind.png";
 import typescript from "./tech/typescript.png";
 import threejs from "./tech/threejs.svg";
 
+import assembly from "./assembly.png"
+import cplusplus from "./cplusplus.png"
+import expedia from "./expedia.png"
+import python from "./python.png"
+import java from "./java.png"
+import servicenow from "./servicenow.png"
+import sql from "./sql.png"
+import webflow from "./webflow.png"
+import ytel from "./ytel.png"
+
 import meta from "./company/meta.png";
 import shopify from "./company/shopify.png";
 import starbucks from "./company/starbucks.png";
@@ -64,4 +74,13 @@ export {
   carrent,
   jobit,
   tripguide,
+  python,
+  java,
+  cplusplus,
+  sql,
+  assembly,
+  servicenow,
+  webflow,
+  ytel,
+  expedia
 };
