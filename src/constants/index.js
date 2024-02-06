@@ -177,7 +177,7 @@ const projects = [
       },
     ],
     image: indexer,
-    source_code_link: "https://github.com/Vincent10351/Assignment3",
+    source_code_link: "https://github.com/Vincent10351/Indexer",
   },
   {
     name: "Web Crawler",
