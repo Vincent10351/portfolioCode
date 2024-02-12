@@ -25,7 +25,8 @@ import {
   expedia,
   webcrawler,
   indexer,
-  tesla
+  tesla,
+  portfoliopic
 } from "../assets";
 
 export const navLinks = [
@@ -167,6 +168,24 @@ const testimonials = [
 
 const projects = [
   {
+    name: "3D Web Developer portfolio ",
+    description:
+      "Developed a dynamic website portfolio while incorporating Three.js for 3D rendering of different object. Included a timeline for work experience, a comprehensive project list with Github links, and a contact section",
+    tags: [
+      {
+        name: "React.js",
+        color: "blue-text-gradient",
+      },
+      {
+        name: "Three.js",
+        color: "blue-text-gradient",
+      },
+    ],
+    image: portfoliopic,
+    source_code_link: "https://github.com/",
+    
+  },
+  {
     name: "Search Engine & Indexer",
     description:
       "Designed a Search Engine that is capable of extracting tokens from up to 55000 documents or Web pages while creating partial indexes for efficient and easy retrieval by the search engine.retrieve the top urls for each query given by accessing partial indexes.",
@@ -195,7 +214,7 @@ const projects = [
   {
     name: "Tesla Deaths Data Analysis ",
     description:
-      "Led a team of 4 and produced data visualization and analysis on Tesla Deaths by solving for the main causation for deaths through the use of linear models, distribution of differences, and  null-hypothesis significance testing.",
+      "Led a team of 4 and produced data visualization and analysis on Tesla Deaths by solving for the main causation for deaths through the use of linear models, distribution of differences, and null-hypothesis significance testing.",
     tags: [
       {
         name: "R",
@@ -204,6 +223,7 @@ const projects = [
     ],
     image: tesla,
     source_code_link: "https://github.com/",
+    
   },
 ];
 

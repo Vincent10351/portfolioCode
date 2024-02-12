@@ -42,6 +42,7 @@ import tripguide from "./tripguide.png";
 
 import indexer from "./indexer.png";
 import webcrawler from "./webcrawler.png";
+import portfoliopic from "./portfoliopic.png"
 
 export {
   indexer,
@@ -82,5 +83,6 @@ export {
   servicenow,
   webflow,
   ytel,
-  expedia
+  expedia,
+  portfoliopic
 };
